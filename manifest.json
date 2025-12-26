@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ViewWindowBottom",
+  "version": "1.0",
+  "description": "Vertically maximize the current window with a keyboard shortcut",
+  "permissions": [
+    "system.display"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "vertical-maximize": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U"
+      },
+      "description": "Vertically maximize current window"
+    }
+  }
+}
