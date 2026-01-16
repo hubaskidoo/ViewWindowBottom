@@ -22,6 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manifest.json" />
+    <Compile Include="ViewWindowBottom.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="background.js" />
+    <Content Include="manifest.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
